@@ -4,20 +4,20 @@ const CONFIG = {
     URL: 'https://api.mercadolibre.com',
     TOKEN_ENDPOINT: '/oauth/token',
     ORDERS_ENDPOINT: '/orders',
-    SELLER_ID: '748635'
+    SELLER_ID: 'YOUR SELLER ID'
   },
   SHEETS: {
-    CLIENTS: "1O_Kwzx1JZHU8Bx",
-    ALUGUEL: "1iq_4K4zcv8",
-    FINANCEIRO: "1k8wxE9lIi5DV4",
+    CLIENTS: "YOUR SHEET ID",
+    ALUGUEL: "YOUR SHEET ID",
+    FINANCEIRO: "YOUR SHEET ID",
     CLIENT_SHEET_NAME: "Clientes",
     ENTRADAS_SHEET_NAME: "Entradas"
   },
   AUTH: {
-    CLIENT_ID: '56639733',
-    CLIENT_SECRET: 'kH2gwe8giy',
+    CLIENT_ID: 'YOUR ID',
+    CLIENT_SECRET: 'YOUR ID',
     GRANT_TYPE: 'refresh_token',
-    REFRESH_TOKEN: 'TG-60ea4342c230a5',
+    REFRESH_TOKEN: 'YOUR TOKEN',
     SCOPE: 'offline_access read write'
   }
 };
